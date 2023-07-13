@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap');
+
+:root {
+    --black: #0D1F2D;
+    --blue: #468C98;
+    --uraian: #ffffffec;
+    --aqua: #6FEDB7;
+    --mint: #9EA3B0;
+    --quartz:#3E5C76;
+    --lavender: #476C9B;
+    --tiffany: #468C98;
+    --h1: 32px;
+    --h4: 18px;
+    --p: 14px;
+    --h2:22px;
+}
+
+p {
+    color: var(--quartz);
+    font-size: var(--p);
+}
+
+h1 {
+    color: var(--mint);
+    font-size: var(--h1)
+}
+
+* {
+    border: 1px solid red;
+}
+
+body {
+    background-color:var(--lavender);
+    /* background-color:#476C9B; */
+    font-family: "Sashas partfolio";
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
+    
+}
+
+header {
+    color: #fffffc;
+    display: flex;
+    align-items: center;
+    background-color:(--mint)
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-size: var(--h4Size);
+    color: var(--white);
+    text-decoration: none;
+}
+
+.Contact-me-btn {
+    display: flex;
+    width: 120px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-family: 'Mukta Malar';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: var(--white);
+    background-color: var(--tiffany);
+}
