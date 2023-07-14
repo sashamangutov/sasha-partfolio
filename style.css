@@ -16,7 +16,7 @@
 }
 
 p {
-    color: var(--quartz);
+    color: var(--mint);
     font-size: var(--p);
 }
 
@@ -25,15 +25,13 @@ h1 {
     font-size: var(--h1)
 }
 
-* {
-    border: 1px solid red;
-}
+
 
 body {
     background-color:var(--lavender);
     /* background-color:#476C9B; */
     font-family: "Sashas partfolio";
-    margin: 0;
+    
 }
 
 nav {
@@ -48,14 +46,13 @@ ul {
     flex-direction: row;
     width: 50%;
     justify-content: center;
-    
-}
+    }
 
 header {
     color: #fffffc;
     display: flex;
     align-items: center;
-    background-color:(--mint)
+    background-color: darkcyan;
 }
 
 li {
@@ -63,7 +60,7 @@ li {
 }
 
 a {
-    font-size: var(--h4Size);
+    font-size: var(--hSize);
     color: var(--white);
     text-decoration: none;
 }
